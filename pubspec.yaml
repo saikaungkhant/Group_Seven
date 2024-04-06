@@ -1,0 +1,34 @@
+name: ev
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^11.0.0
+  google_maps_flutter: ^2.5.3
+  location: ^5.0.3
+  mongo_dart: ^0.10.0
+  permission_handler: ^11.3.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+    - assets/images/background.png
+    - assets/images/logo_banner.png
+    - assets/images/apple.png
+    - assets/images/facebook.png
+    - assets/images/google.png
+    - assets/images/back.png
+    - assets/images/station.png
+    - assets/images/car_location.png
+  uses-material-design: true
